@@ -17,6 +17,86 @@ html {
 }
 
 body {
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.container-heading {
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    height: 75vh;
+    padding: 50px 80px 80px 80px;
+    min-width: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#logo-top {
+    width: 15%;
+    height: 15%;
+}
+
+#try {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 60px 15px 60px;
+    border-radius: 25px;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    border: none;
+    box-shadow: 0px 5px 5px lightgray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mockup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+   
+}
+
+#mockup {
+    padding: 20px 0px 0px 60px;
+    width: 54%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.8rem;
+    color: hsl(208, 11%, 55%);
+}
+
+#about {
+    line-height: 1.8rem;;
+}
+
+#started {
+    font-size: 15px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+/* body {
     min-height: 100vh;
 }
 .container {
@@ -46,18 +126,7 @@ body {
     font-size: 18px;
 }
 
-.back__hero {
-    height: 100vh; /* Altura de la sección destacada, menos la altura del encabezado */
-    background-image: url(/images/bg-hero-desktop.svg); /* Ruta de la imagen que quieres utilizar como fondo */
-    background-repeat: no-repeat; /* Posición centrada de la imagen */
-    background-size: cover; /* Escala la imagen para que ocupe todo el espacio disponible */
-    position: absolute;
-    z-index: 0;
-    top: 0; /* La sección hero comienza después del encabezado */
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+
 
 .hero {
     display: flex;
@@ -70,36 +139,3 @@ body {
     margin-top: 13rem;
 }
 
-.hero__info {
-    margin-right: 13rem; /*4rem antes*/
-}
-
-.title_hero {
-    font-size: 3.8rem; /* 4rem antes*/
-    color: var(--DarkCyan);
-    font-family: var(--fontSans);
-}
-
-.info {
-    font-size: 1.3rem;
-    color: var(--DarkCyan);
-    font-family: var(--fontPoppins);
-    /* margin-bottom: 3.2rem; */
-    margin: 1rem 1rem 3.2rem
-}
-
-.buttom__hero {
-    background: var(--Pink);
-    color: var(--veryPaleCyan);
-    font-family: var(--fontPoppins);
-    font-size: 1.5rem;
-    text-decoration: none;
-    padding: 1.2rem 6rem;
-    border-radius: 1.8rem;
-    box-shadow: -1px 10px 22px -12px rgba(0,0,0,0.75);
-}
-
-.hero__imagen {
-    margin-top: 5rem;
-    width: 64rem;
-}
