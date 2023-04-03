@@ -35,12 +35,12 @@ header {
     margin-bottom: 50px;
 }
 
-#logo-top {
+.logo-top {
     width: 15%;
     height: 15%;
 }
 
-#try {
+.try {
     font-size: 15px;
     font-weight: 600;
     padding: 15px 60px 15px 60px;
@@ -57,10 +57,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
-   
 }
 
-#mockup {
+.mockup {
     padding: 20px 0px 0px 60px;
     width: 54%;
 }
@@ -77,11 +76,11 @@ p {
     color: hsl(208, 11%, 55%);
 }
 
-#about {
+.about {
     line-height: 1.8rem;;
 }
 
-#started {
+.started {
     font-size: 15px;
     padding: 20px 80px 20px 80px;
     border-radius: 25px;
