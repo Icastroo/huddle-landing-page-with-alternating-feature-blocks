@@ -19,6 +19,7 @@ html {
 body {
     min-width: 100vh;
     min-height: 100vh;
+    margin: auto;
 }
 .container-heading {
     background-image: url("./images/bg-hero-desktop.svg");
