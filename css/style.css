@@ -249,6 +249,22 @@ a {
 
 /* Footer */
 
+.footer {
+    background-color: var(--DarkCyan);
+}
+.container__footer {
+    width: 90%;
+    margin: 0 auto;
+    /* padding-top: 3rem;
+    padding-bottom: 7rem; */
+}
+.top__footer {
+    display: flex;
+    flex-direction: column;
+}
 
+.logo__footer {
+    width: 20rem;
+}
 
 
